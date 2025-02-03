@@ -13,6 +13,23 @@ hr {
        border-top: 1px solid #aaaaaa;
        border-bottom: 1px solid #ffffff;
 }
+ 
+h2 {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 16px;
+	color: #006600;
+}
+
+p {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 16px;
+}
+
+a {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
 
 #pageTitle  {
 	font-family: 'Helvetica', sans-serif;
@@ -56,21 +73,15 @@ hr {
 	vertical-align: middle;
 	padding-right: 40px;
 }
- 
-h2 {
-	font-family: 'Helvetica', sans-serif;
-	font-size: 16px;
-	color: #006600;
+
+#linkTable {
+	margin-left: auto;
+	margin-right: auto;
 }
 
-p {
-	font-family: 'Helvetica', sans-serif;
-	font-size: 16px;
-}
-
-a {
-	font-family: 'Helvetica', sans-serif;
-	font-size: 16px;
+#catTable {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .profilePic {
@@ -79,4 +90,43 @@ a {
 	margin-right: auto;
 	width: 50%;
 	height: 50%;
+}
+
+.notLastLink {
+	border-right: solid;
+	border-right-width: 1px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.lastLink {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.catPic {
+	width: 250px;
+	height: 250px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.catNames {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+.catBios {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	padding: 5px;
+	width: 250px;
+	height: 130px;
+}
+
+.homeLink {
+	margin-left: auto;
+	margin-right: auto;
 }

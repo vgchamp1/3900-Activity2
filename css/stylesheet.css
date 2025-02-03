@@ -1,3 +1,4 @@
+/* Tag styling section */
 hr {
        display: block;
        position: relative;
@@ -31,6 +32,7 @@ a {
 	text-align: center;
 }
 
+/* ID styling section */
 #pageTitle  {
 	font-family: 'Helvetica', sans-serif;
 	margin: 10px 0;
@@ -84,6 +86,7 @@ a {
 	margin-right: auto;
 }
 
+/* Class styling section */
 .profilePic {
 	display: block;
 	margin-left: auto;
